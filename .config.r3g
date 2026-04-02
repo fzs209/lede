@@ -1,0 +1,44 @@
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt7621=y
+CONFIG_TARGET_ramips_mt7621_DEVICE_xiaomi_mi-router-3g=y
+CONFIG_DEVEL=y
+CONFIG_CCACHE=y
+CONFIG_TARGET_OPTIONS=y
+CONFIG_TARGET_OPTIMIZATION="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc"
+CONFIG_SOFT_FLOAT=y
+# CONFIG_USE_MIPS16 is not set
+CONFIG_USE_GC_SECTIONS=y
+CONFIG_KERNEL_PERF_EVENTS=y
+CONFIG_ZLIB_OPTIMIZE_SPEED=y
+CONFIG_ZSTD_OPTIMIZE_O3=y
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+# CONFIG_PACKAGE_ipv6helper is not set
+CONFIG_PACKAGE_luci-app-eqos-mtk=y
+# CONFIG_PACKAGE_luci-app-turboacc is not set
+# CONFIG_PACKAGE_luci-app-turboacc-mtk_INCLUDE_OFFLOADING is not set
+CONFIG_PACKAGE_luci-app-turboacc-mtk_INCLUDE_DNSFORWARDER=y
+CONFIG_PACKAGE_luci-app-turboacc-mtk_INCLUDE_DNSPROXY=y
+# CONFIG_PACKAGE_luci-app-upnp is not set
+# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
+# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
+# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_IPT2Socks is not set
+# CONFIG_PACKAGE_luci-app-mwan3helper-chinaroute is not set
+# CONFIG_PACKAGE_TURBOACC_INCLUDE_OFFLOADING is not set
+# CONFIG_PACKAGE_TURBOACC_INCLUDE_BBR_CCA is not set
+# CONFIG_PACKAGE_luci-app-turboacc-mtk_INCLUDE_SHORTCUT_FE_CM is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus is not set
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_NONE_Client=y
+CONFIG_PACKAGE_luci-app-turboacc-mtk=y
+# CONFIG_PACKAGE_kmod-tun is not set
+# CONFIG_PACKAGE_luci-app-mtwifi is not set
+CONFIG_PACKAGE_appfilter=y
+luci-app-oaf=y
